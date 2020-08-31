@@ -59,7 +59,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /mild-temper(/|$)(.*)
+                    -   path: /surendra-solo(/|$)(.*)
                         backend:
                             serviceName: surendra-solo-microservice-service
                             servicePort: 30201
